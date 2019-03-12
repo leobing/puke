@@ -5,6 +5,63 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
 		<link rel="stylesheet" href="css/style.css" />
 		<title>比赛</title>
+
+		<style>
+			@media screen and (max-width:1200px){
+				.mainbox{width: 100%;}
+
+				.videolist ul li{width:25%;margin-right: 0;}
+				.videolist ul li.nomargin{margin-right: 0;}
+				.videolist ul li .tu{text-align: center;}
+
+				.videolist ul li .tu img{width: 90%;}
+
+
+				.tj-banner{margin: 10px 0;}
+				.tj-banner a img{width: 100%;}
+			}
+			@media screen and (max-width:1030px){
+				
+				.mainvideo .con{width:98%; margin:0 auto;}
+				.mainvideo .con .des{float: left;width: 48%;}
+				.mainvideo .con .tu{width: 50%;margin-right: 1%;}
+				.mainvideo .con .tu a img{width: 100%;}
+			}
+
+			@media screen and (max-width:885px){
+				.videolist ul li{width:33%;}
+				.videolist ul li .tu img{width: 90%;}
+			}
+
+			@media screen and (max-width:770px){
+				/* 视频 */
+				.mainvideo .tu {margin-right: 20px;}
+
+				.mainvideo .des p a{display: -webkit-box;-webkit-line-clamp: 4;-webkit-box-orient: vertical;overflow: hidden;}
+				.mainvideo .des p.ic{margin-top:20px;}
+
+
+				.videolist ul li h3{margin-top:8px;}
+				.videolist ul li h3{font-size:14px;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;}
+				.tj-banner {margin: 0px 0 10px 0;}
+			}
+
+			@media screen and (max-width:600px){
+				.mainvideo .con .des{width: 100%;}
+				.mainvideo .con .tu{width: 100%;text-align: center;margin-right: 0;}
+				.mainvideo .con .tu a img{width: auto;}
+				.mainvideo .des p a{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;}
+				.mainvideo .des h2{margin-top: 10px;}
+			}
+
+			@media screen and (max-width:465px){
+				.mainvideo .con .tu a img{width: 100%;}
+				.mainvideo .des h2{margin-bottom: 6px;}
+				.mainvideo .des p.ic {margin-top: 10px;}
+				.mainvideo{margin-bottom: 10px;padding: 10px 0;}
+			}
+
+		</style>
 	</head>
 	<body>
 		<!--header开始-->

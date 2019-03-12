@@ -7,6 +7,29 @@
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="js/FengTab.js"></script>
 		<title>排行</title>
+
+		<style>
+			@media screen and (max-width:1442px){
+				.ranking .tabcon .first,
+				.ranking .tabcon .second,
+				.ranking .tabcon .third{width:30%;margin-left:1.5%;margin-right:1.5%;}
+				.ranking .tabcon .third.fr{float:left;}
+
+			}
+			@media screen and (max-width:480px){
+				.ranking .tabcon .ranklist{padding: 10px 5px;margin: 10px 0;}
+				.ranking .tabcon .ranklist ul li .tximg img{margin-right: 15px;}
+				.ranking .tabcon .ranklist ul li .num{margin-right: 8px;font-size: 18px;}
+				.ranking .tabcon .ranklist ul li .tximg img {margin-right: 5px;}
+				.ranking .tabcon .score {font-size: 18px;}
+
+			}
+			@media screen and (max-width:375px){
+				.ranking .tabcon .ranklist ul li .name {font-size: 14px;}
+				.ranking .tabcon .ranklist ul li .num{margin-right: 5px;font-size: 16px;}
+				.ranking .tabcon .score{font-size: 16px;}
+			}
+		</style>
 	</head>
 	<body>
 		<!--header开始-->
